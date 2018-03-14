@@ -13,12 +13,17 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import AppHeader from "./components/common/header-page.vue"
+import AppFooter from "./components/common/footer-page.vue"
 
 Vue.use(ElementUI)
 Vue.use(VueI18n)
 Vue.use(Vuex)
 Vue.use(BootstrapVue)
 Vue.use(VueResource)
+
+Vue.component('header-page', AppHeader)
+Vue.component('footer-page', AppFooter)
 
 Vue.http.options.root = process.env.SERVER_IP
 
@@ -32,6 +37,8 @@ new Vue({
   router,
   i18n,
   store,
-  components: { App },
+  components: {
+    App
+  },
   template: '<App/>'
 })
