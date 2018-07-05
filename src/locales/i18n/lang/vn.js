@@ -1,0 +1,16 @@
+export default {
+  'try_to_find': 'we are trying to find where you are!',
+  'details': {
+    'set_location': 'set location',
+    'save': 'save',
+    'send_phone': 'send to phone',
+    'share': 'share',
+    'more_details': 'more details'
+  },
+  'nav': {
+    'home': 'home',
+    'wedding': 'wedding',
+    'yearbook': 'yearbook',
+    'events': 'events'
+  }
+}
