@@ -13,6 +13,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import './styles/styles.scss'
 import AppHeader from './components/common/header-page.vue'
 import AppFooter from './components/common/footer-page.vue'
 
