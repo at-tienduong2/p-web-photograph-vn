@@ -44,6 +44,12 @@ a img {
 article, aside, details, figure, footer, header, menu, nav, section, summary {
   display: block;
 }
+a {
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+  }
+}
 * {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
