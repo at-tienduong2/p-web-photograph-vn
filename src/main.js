@@ -12,16 +12,22 @@ import BootstrapVue from 'bootstrap-vue'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import './assets/slick/slick.css'
+import './assets/slick/slick-theme.css'
+import './assets/slick/slick.min.js'
 import './styles/styles.scss'
 import AppHeader from './components/common/header-page.vue'
 import AppFooter from './components/common/footer-page.vue'
+import PartialComponents from './components/PartialComponents'
 
 Vue.use(ElementUI)
 Vue.use(VueI18n)
 Vue.use(Vuex)
 Vue.use(BootstrapVue)
 Vue.use(VueResource)
+Vue.use(PartialComponents)
 
 Vue.component('header-page', AppHeader)
 Vue.component('footer-page', AppFooter)
