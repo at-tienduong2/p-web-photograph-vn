@@ -5,12 +5,11 @@
 
 <script>
 export default {
-  name: "footer-page",
-  props: ["title"]
-};
+  name: 'footer-page',
+  props: ['title']
+}
 </script>
 
 <style>
 
 </style>
-

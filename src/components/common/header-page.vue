@@ -26,11 +26,10 @@
 
 <script>
 export default {
-  name: "header-page",
-};
+  name: 'header-page' 
+}
 </script>
 
 <style>
 
 </style>
-
