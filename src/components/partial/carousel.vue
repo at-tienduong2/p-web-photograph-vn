@@ -2,6 +2,11 @@
   <div class="carousel variable-width">
     <div class="image" style="width: 1000px">
       <img src="http://themewinter.com/WP/blogline/wp-content/uploads/2016/02/bg1.jpg')">
+      <div class="slider-content">
+        <a class="title-font slider btn btn-primary">BEAUTY </a>
+        <h2 class="entry-title">Champagne Jell-oshort Shots Are Full</h2>
+        <a class="title-font slider btn btn-primary">SEE MORE </a>
+      </div>
     </div>
     <div class="image" style="width: 1000px">
       <img src="http://themewinter.com/WP/blogline/wp-content/uploads/2016/02/bg3.jpg')">

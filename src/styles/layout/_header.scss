@@ -2,6 +2,8 @@
 .header {
   position: relative;
   background-color: transparent;
+  z-index: 100;
+  background-color: $color-menu;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   &.sticky-header {
     position: fixed;
@@ -15,12 +17,12 @@
     height: 60px;
   }
   .nav-item {
-    padding: 0 25px;
+    padding: 0 10px;
     position: relative;
     &:before {
       content: "";
       position: absolute;
-      right: -2px;
+      right: -51px;
       top: 0;
       bottom: 0;
       width: 1px;
@@ -44,8 +46,8 @@
       font-family: 'Fjalla One', sans-serif;
       color: $color-a;
       text-transform: uppercase;
-      font-size: 16px;
-      padding: 35px 15px;
+      font-size: 12px;
+      padding: 10px 0px;
       opacity: 1;
       visibility: visible;
       font-weight: 400;

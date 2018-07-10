@@ -27,8 +27,6 @@
         </div>
       </div>
     </div>
-    <section id="slider" class="banner">
-    </section>
   </header>
 </template>
 
