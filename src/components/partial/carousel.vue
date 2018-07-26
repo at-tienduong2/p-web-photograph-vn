@@ -28,7 +28,7 @@ export default {
       slidesToShow: 1,
       centerMode: true,
       variableWidth: true
-    });
+    })
   }
 }
 // <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">

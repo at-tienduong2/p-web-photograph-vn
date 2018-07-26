@@ -27,6 +27,7 @@ Vue.use(VueI18n)
 Vue.use(Vuex)
 Vue.use(BootstrapVue)
 Vue.use(VueResource)
+
 Vue.use(PartialComponents)
 
 Vue.component('header-page', AppHeader)
