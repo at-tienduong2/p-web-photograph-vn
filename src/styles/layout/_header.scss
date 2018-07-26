@@ -1,7 +1,36 @@
-
+.upper-header {
+  background-color: $color-menu-bg;
+  color: white;
+  .top-ads {
+    float: right;
+  }
+  .logo {
+    width: 200px;
+  }
+  .brand-section {
+    padding: 2rem 0;
+  }
+  .brand-action {
+    border-bottom: 0.5px solid grey;
+    padding: 0.5rem 0;
+    .action {
+      display: flex;
+      justify-content: space-between;
+      ul {
+        display: flex;
+        li {
+          padding: 0 0.5rem;
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
 .header {
   position: relative;
   background-color: transparent;
+  z-index: 100;
+  background-color: $color-menu;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   &.sticky-header {
     position: fixed;
@@ -10,42 +39,15 @@
     background: rgba(2, 2, 3, 0.8);
     z-index: 999;
   }
-  .logo {
-    width: 60px;
-    height: 60px;
-  }
   .nav-item {
-    padding: 0 25px;
+    padding: 0.5rem 1.5rem;
     position: relative;
-    &:before {
-      content: "";
-      position: absolute;
-      right: -2px;
-      top: 0;
-      bottom: 0;
-      width: 1px;
-      height: 12px;
-      border-radius: 0;
-      margin: auto 0;
-      display: block;
-      line-height: 72px;
-      z-index: 20;
-      background: #fff;
-      transition: 300ms;
-      -webkit-transition: 300ms;
-    }
-    &:last-child {
-      &:before {
-        content: "";
-        width: 0;
-      }
-    }
     .nav-link {
       font-family: 'Fjalla One', sans-serif;
-      color: $color-a;
+      color: $color-b;
       text-transform: uppercase;
-      font-size: 16px;
-      padding: 35px 15px;
+      font-size: 12px;
+      padding: 10px 0px;
       opacity: 1;
       visibility: visible;
       font-weight: 400;

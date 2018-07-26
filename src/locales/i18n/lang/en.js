@@ -9,8 +9,9 @@ export default {
   },
   'nav': {
     'home': 'home',
-    'wedding': 'wedding',
-    'yearbook': 'yearbook',
-    'events': 'events'
+    'articles': 'articles',
+    'resources': 'resources',
+    'picofyou': 'pic of you',
+    'findphoto': 'find photographers'
   }
 }
