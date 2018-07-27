@@ -1,0 +1,29 @@
+.breadcrumb-list {
+  display: flex;
+  font-size: 12px;
+  position: relative;
+  font-weight: 700;
+  list-style: 1.2;
+  .breadcrumb-item {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 18px;
+    color: $color-a;
+    letter-spacing: 1px;
+    font-weight: 400;
+    .link {
+      color: green;
+    }
+    &:first-child:before {
+      content: ' ';
+      padding: 0 5px 0 0;
+      color: #d2d2d2;
+      border-top: 1px solid #a4a4a4;
+      position: absolute;
+      top: 7px;
+      left: -18px;
+      width: 12px;
+    }
+  }
+}

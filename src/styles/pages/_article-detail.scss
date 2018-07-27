@@ -1,0 +1,13 @@
+.article-banner {
+  position: relative;
+  .article-img {
+    position: relative;
+    max-height: 80vh;
+    overflow: hidden;
+  }
+  .article-header-text  {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
