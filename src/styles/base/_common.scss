@@ -1,3 +1,17 @@
 a {
   color: green;
 }
+
+.carousel-text {
+  color: white;
+  text-shadow: 0 0 3px grey;
+}
+.title-1 {
+  @extend .carousel-text;
+  font-size: 2rem;
+}
+.desc-1 {
+  @extend .carousel-text;
+  padding-top: 20px;
+  font-size: 0.7rem;
+}
