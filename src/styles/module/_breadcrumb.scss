@@ -3,7 +3,7 @@
   font-size: 12px;
   position: relative;
   font-weight: 700;
-  list-style: 1.2;
+  line-height: 1.2;
   .breadcrumb-item {
     display: inline-block;
     font-size: 12px;
@@ -13,17 +13,23 @@
     letter-spacing: 1px;
     font-weight: 400;
     .link {
-      color: green;
+      color: $color-a;
     }
     &:first-child:before {
       content: ' ';
       padding: 0 5px 0 0;
-      color: #d2d2d2;
-      border-top: 1px solid #a4a4a4;
+      border-top: 1px solid $color-a;
       position: absolute;
       top: 7px;
       left: -18px;
       width: 12px;
+    }
+    &:not(:first-child):before {
+      display: inline-block;
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
+      color: #d2d2d2;
+      content: "/";
     }
   }
 }

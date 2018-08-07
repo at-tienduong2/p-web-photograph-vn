@@ -10,6 +10,9 @@ import VueI18n from 'vue-i18n'
 import i18n from './locales/config'
 import BootstrapVue from 'bootstrap-vue'
 import ElementUI from 'element-ui'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import 'element-ui/lib/theme-chalk/index.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
@@ -39,6 +42,11 @@ Vue.config.productionTip = false
 
 Vue.http.headers.common['Access-Token'] = localStorage.getItem('ACCESS_TOKEN')
 Vue.http.headers.common['Uid'] = localStorage.getItem('UID')
+
+library.add(faCoffee)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.config.productionTip = false
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

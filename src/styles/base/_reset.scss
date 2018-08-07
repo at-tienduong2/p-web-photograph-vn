@@ -41,14 +41,19 @@ q, blockquote {
 a img {
   border: none;
 }
+img {
+  max-width: 100%;
+}
 article, aside, details, figure, footer, header, menu, nav, section, summary {
   display: block;
 }
 a {
   color: inherit;
   cursor: pointer;
+  color: inherit;
   &:hover {
     text-decoration: none;
+    color: inherit;
   }
 }
 * {
