@@ -1,6 +1,12 @@
 /*Font*/
 body {
   font-family: 'Lato', sans-serif, 'Oswald';
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 1px;
 }
 
 // Color
@@ -11,6 +17,8 @@ $color-a: #ffffff;
 $color-b: #242424;
 $color-c: #999999;
 $color-d: #fafafa;
+$color-e: #666666;
+$color-f: #a2a2a2;
 $color-menu: #f8f8f8;
 $color-menu-bg: #121516;
 
