@@ -48,6 +48,7 @@ article, aside, details, figure, footer, header, menu, nav, section, summary {
   display: block;
 }
 a {
+  color: inherit;
   cursor: pointer;
   color: inherit;
   &:hover {
